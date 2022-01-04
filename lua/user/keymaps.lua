@@ -67,6 +67,15 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 -- keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 -- keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
+-- Window Splits                                                                                                                                                              
+keymap("n", "<C-v>", ":vsplit <CR>", opts)                                                                                                                                    
+keymap("n", "<C-z>", ":split <CR>", opts)                                                                                                                                     
+                                                                                                                                                                              
+-- Save and Quit                                                                                                                                                              
+keymap("n", "<C-w>", ":w <CR>", opts)                                                                                                                                         
+keymap("n", "<C-q>", ":q <CR>", opts) 
+
+
 -- Nvimtree
 keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
