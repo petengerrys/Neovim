@@ -48,8 +48,7 @@ return packer.startup(function(use)
   use "numToStr/Comment.nvim" -- Easily comment stuff
 
   -- Colorschemes
-  -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
-  use "lunarvim/darkplus.nvim"
+  use "folke/tokyonight.nvim"  
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -77,6 +76,9 @@ return packer.startup(function(use)
     run = ":TSUpdate",
   }
   use 'JoosepAlviste/nvim-ts-context-commentstring'
+  use "p00f/nvim-ts-rainbow"
+  use "nvim-treesitter/playground"
+  use "tomlion/vim-solidity"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
