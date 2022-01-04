@@ -55,9 +55,8 @@ return packer.startup(function(use)
   use "ahmedkhalf/project.nvim"
   use 'lewis6991/impatient.nvim'
 
-  -- Colorschemes
-  -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
-  use "lunarvim/darkplus.nvim"
+ -- Colorschemes
+  use "folke/tokyonight.nvim"  
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
