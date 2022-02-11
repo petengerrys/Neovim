@@ -53,8 +53,10 @@ return packer.startup(function(use)
   use 'nvim-lualine/lualine.nvim'
   use "akinsho/toggleterm.nvim"
   use "f3fora/cmp-spell" 
+  use "folke/zen-mode.nvim"
+  use "vimwiki/vimwiki"
 
- -- Colorschemes
+-- Colorschemes
   use "folke/tokyonight.nvim"  
 
   -- cmp plugins
